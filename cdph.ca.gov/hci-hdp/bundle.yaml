@@ -1,0 +1,46 @@
+about:
+    access: restricted
+    footnote: nll
+    grain: null
+    groups: null
+    license: ckdbl
+    processed: null
+    rights: public
+    source: null
+    space: null
+    subject: null
+    summary: Dataset Summary
+    tags: []
+    time: null
+    title: Dataset Title
+contacts:
+    wrangler:
+        email: bob@example.com
+        name: Bob Bobson
+        url: http://example.com
+dependencies: {}
+external_documentation:
+    dataset:
+        description: Web page the links to the dataset description
+        source: null
+        title: Dataset Page
+        url: http://example.com
+    download:
+        description: Web page that links to the source files.
+        source: null
+        title: Download Page
+        url: http://example.com
+identity:
+    dataset: hci
+    id: d05a
+    revision: 1
+    source: cdph.ca.gov
+    variation: hdp
+    version: 0.0.1
+names:
+    fqname: cdph.ca.gov-hci-hdp-0.0.1~d05a001
+    name: cdph.ca.gov-hci-hdp
+    vid: d05a001
+    vname: cdph.ca.gov-hci-hdp-0.0.1
+requirements: {}
+versions: {}
