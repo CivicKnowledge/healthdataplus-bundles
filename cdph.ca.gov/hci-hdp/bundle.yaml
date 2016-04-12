@@ -9,15 +9,15 @@ about:
     source: null
     space: null
     subject: null
-    summary: Dataset Summary
+    summary: Re-structured versions of a subset of the CDPH Healthly Communities Indicators
     tags: []
     time: null
-    title: Dataset Title
+    title: HCI Aggregated for Health Data +
 contacts:
     wrangler:
-        email: bob@example.com
-        name: Bob Bobson
-        url: http://example.com
+        email: eric@civicknowlege.com
+        name: Eric Busboom
+        url: http://civicknowledge.com
 dependencies: {}
 external_documentation:
     dataset:
