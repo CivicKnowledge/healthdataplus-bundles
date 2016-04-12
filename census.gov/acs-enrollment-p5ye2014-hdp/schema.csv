@@ -1,0 +1,61 @@
+table,column,datatype,valuetype,parent,transform,description
+b14001,id,int,id,,,School Enrollment By Level Of School For The Population 3 Years And Over
+b14001,chariter,unicode,d/str,,,Character Iteration
+b14001,sequence,int,d/int,,,Sequence Number
+b14001,logrecno,int,key,,,Logical Record Number
+b14001,geoid,unicode,d/geo/acs?,,,Geoid from geofile
+b14001,gvid,unicode,d/geo/gvid,geoid,,GVid from geoid
+b14001,state,unicode,d/geo/usps/state,geoid,,State/U.S.-Abbreviation (USPS)
+b14001,state_name,unicode,d/geo/label,geoid,||row.gvid.gvid.state_name,
+b14001,county_name,unicode,d/geo/label?,geoid,||row.gvid.gvid.county_name.short_name,
+b14001,sumlevel,int,d/int,,,Summary Level
+b14001,total,float,m/float?,,,Total:
+b14001,total_pct,str,m/pct?,total,"||bundle.pct(val=row.total, total=row.total)",Percentage of Total:
+b14001,total_pct_rse,str,e/rse?,total,"||bundle.pctrse(val=row.total, val_se=row.total_se, total=row.total, total_se=row.total_se)",Relative standard error for Percentage of Total:
+b14001,total_rse,float,e/rse?,total,"^bundle.rse(val=row.total, m=row.total_m90)",Relative Standard error for Total
+b14001,total_se,float,e/se,total,^bundle.stderr(m=row.total_m90),Standard error for Total
+b14001,enrolled,float,m/float?,,,Enrolled in school:
+b14001,enrolled_rse,float,e/rse?,enrolled,"^bundle.rse(val=row.enrolled, m=row.enrolled_m90)",Relative Standard error for Enrolled in school:
+b14001,enrolled_se,float,e/se,enrolled,^bundle.stderr(m=row.enrolled_m90),Standard error for Enrolled in school
+b14001,enrolled_pct,str,m/pct?,enrolled,"||bundle.pct(val=row.enrolled, total=row.total)","Percentage of Enrolled in school, of total population"
+b14001,enrolled_pct_rse,str,e/rse?,enrolled,"||bundle.pctrse(val=row.enrolled, val_se=row.enrolled_se, total=row.total, total_se=row.total_se)","Relative standard error for Percentage of Enrolled in school, of total population"
+b14001,not_enrolled,float,m/float?,,,Not enrolled in school
+b14001,not_enrolled_pct,str,m/pct?,not_enrolled,"||bundle.pct(val=row.not_enrolled, total=row.total)","Percentage of Not enrolled in school, of total population"
+b14001,not_enrolled_pct_rse,str,e/rse?,not_enrolled,"||bundle.pctrse(val=row.not_enrolled, val_se=row.not_enrolled_se, total=row.total, total_se=row.total_se)","Relative standard error for Percentage of Not enrolled in school, of total population"
+b14001,not_enrolled_rse,float,e/rse?,not_enrolled,"^bundle.rse(val=row.not_enrolled, m=row.not_enrolled_m90)",Relative Standard error for Not enrolled in school
+b14001,not_enrolled_se,float,e/se,not_enrolled,^bundle.stderr(m=row.not_enrolled_m90),Standard error for Not enrolled in school
+b14001,enrolled_pre_k,float,m/float?,,,"Enrolled in nursery school, preschool"
+b14001,enrolled_pre_k_rse,float,e/rse?,enrolled_pre_k,"^bundle.rse(val=row.enrolled_pre_k, m=row.enrolled_pre_k_m90)","Relative Standard error for Enrolled in nursery school, preschool"
+b14001,enrolled_pre_k_se,float,e/se,enrolled_pre_k,^bundle.stderr(m=row.enrolled_pre_k_m90),"Standard error for Enrolled in nursery school, preschool"
+b14001,enrolled_pre_k_pct,str,m/pct?,enrolled_pre_k,"||bundle.pct(val=row.enrolled_pre_k, total=row.total)","Percentage of Enrolled in nursery school, preschool, of total population"
+b14001,enrolled_pre_k_pct_rse,str,e/rse?,enrolled_pre_k,"||bundle.pctrse(val=row.enrolled_pre_k, val_se=row.enrolled_pre_k_se, total=row.total, total_se=row.total_se)","Relative standard error for Percentage of Enrolled in nursery school, preschool, of total population"
+b14001,enrolled_k,float,m/float?,,,Enrolled in kindergarten
+b14001,enrolled_k_rse,float,e/rse?,enrolled_k,"^bundle.rse(val=row.enrolled_k, m=row.enrolled_k_m90)",Relative Standard error for Enrolled in kindergarten
+b14001,enrolled_k_se,float,e/se,enrolled_k,^bundle.stderr(m=row.enrolled_k_m90),Standard error for  Enrolled in kindergarten
+b14001,enrolled_k_pct,str,m/pct?,enrolled_k,"||bundle.pct(val=row.enrolled_k, total=row.total)","Percentage of Enrolled in kindergarten, of total population"
+b14001,enrolled_k_pct_rse,str,e/rse?,enrolled_k,"||bundle.pctrse(val=row.enrolled_k, val_se=row.enrolled_k_se, total=row.total, total_se=row.total_se)","Relative standard error for Percentage of Enrolled in kindergarten, of total population"
+b14001,enrolled_1_4,float,m/float?,,,Enrolled in grade 1 to grade 4
+b14001,enrolled_1_4_rse,float,e/rse?,enrolled_1_4,"^bundle.rse(val=row.enrolled_1_4, m=row.enrolled_1_4_m90)",Relative Standard error for Enrolled in grade 1 to grade 4
+b14001,enrolled_1_4_se,float,e/se,enrolled_1_4,^bundle.stderr(m=row.enrolled_1_4_m90),Standard error for Enrolled in grade 1 to grade 4
+b14001,enrolled_1_4_pct,str,m/pct?,enrolled_1_4,"||bundle.pct(val=row.enrolled_1_4, total=row.total)","Percentage of Enrolled in grade 1 to grade 4, of total population"
+b14001,enrolled_1_4_pct_rse,str,e/rse?,enrolled_1_4,"||bundle.pctrse(val=row.enrolled_1_4, val_se=row.enrolled_1_4_se, total=row.total, total_se=row.total_se)","Relative standard error for Percentage of Enrolled in grade 1 to grade 4, of total population"
+b14001,enrolled_5_8,float,m/float?,,,Enrolled in grade 5 to grade 8
+b14001,enrolled_5_8_rse,float,e/rse?,enrolled_5_8,"^bundle.rse(val=row.enrolled_5_8, m=row.enrolled_5_8_m90)",Relative Standard error for Enrolled in grade 5 to grade 8
+b14001,enrolled_5_8_se,float,e/se,enrolled_5_8,^bundle.stderr(m=row.enrolled_5_8_m90),Standard error for Enrolled in grade 5 to grade 8
+b14001,enrolled_5_8_pct,str,m/pct?,enrolled_5_8,"||bundle.pct(val=row.enrolled_5_8, total=row.total)","Percentage of Enrolled in grade 5 to grade 8, of total population"
+b14001,enrolled_5_8_pct_rse,str,e/rse?,enrolled_5_8,"||bundle.pctrse(val=row.enrolled_5_8, val_se=row.enrolled_5_8_se, total=row.total, total_se=row.total_se)","Relative standard error for Percentage of Enrolled in grade 5 to grade 8, of total population"
+b14001,enrolled_8_12,float,m/float?,,,Enrolled in grade 9 to grade 12
+b14001,enrolled_8_12_rse,float,e/rse?,enrolled_8_12,"^bundle.rse(val=row.enrolled_8_12, m=row.enrolled_8_12_m90)",Relative Standard error for Enrolled in grade 9 to grade 12
+b14001,enrolled_8_12_se,float,e/se,enrolled_8_12,^bundle.stderr(m=row.enrolled_8_12_m90),Standard error for Enrolled in grade 9 to grade 12
+b14001,enrolled_8_12_pct,str,m/pct?,enrolled_8_12,"||bundle.pct(val=row.enrolled_8_12, total=row.total)","Percentage of Enrolled in grade 9 to grade 12, of total population"
+b14001,enrolled_8_12_pct_rse,str,e/rse?,enrolled_8_12,"||bundle.pctrse(val=row.enrolled_8_12, val_se=row.enrolled_8_12_se, total=row.total, total_se=row.total_se)","Relative standard error for Percentage of Enrolled in grade 9 to grade 12, of total population"
+b14001,enrolled_college,float,m/float?,,,"Enrolled in college, undergraduate years"
+b14001,enrolled_college_rse,float,e/rse?,enrolled_college,"^bundle.rse(val=row.enrolled_college, m=row.enrolled_college_m90)","Relative Standard error for Enrolled in college, undergraduate years"
+b14001,enrolled_college_se,float,e/se,enrolled_college,^bundle.stderr(m=row.enrolled_college_m90),"Standard error for Enrolled in college, undergraduate years"
+b14001,enrolled_college_pct,str,m/pct?,enrolled_college,"||bundle.pct(val=row.enrolled_college, total=row.total)","Percentage of Enrolled in college, undergraduate years, of total population"
+b14001,enrolled_college_pct_rse,str,e/rse?,enrolled_college,"||bundle.pctrse(val=row.enrolled_college, val_se=row.enrolled_college_se, total=row.total, total_se=row.total_se)","Relative standard error for Percentage of Enrolled in college, undergraduate years, of total population"
+b14001,enrolled_graduate,float,m/float?,,,Graduate or professional school
+b14001,enrolled_graduate_rse,float,e/rse?,enrolled_graduate,"^bundle.rse(val=row.enrolled_graduate, m=row.enrolled_graduate_m90)",Relative Standard error for Graduate or professional school
+b14001,enrolled_graduate_se,float,e/se,enrolled_graduate,^bundle.stderr(m=row.enrolled_graduate_m90),Standard error for Graduate or professional school
+b14001,enrolled_graduate_pct,str,m/pct?,enrolled_graduate,"||bundle.pct(val=row.enrolled_graduate, total=row.total)","Percentage of Graduate or professional school, of total population"
+b14001,enrolled_graduate_pct_rse,str,e/rse?,enrolled_graduate,"||bundle.pctrse(val=row.enrolled_graduate, val_se=row.enrolled_graduate_se, total=row.total, total_se=row.total_se)","Relative standard error for Percentage of Graduate or professional school, of total population"

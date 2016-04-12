@@ -1,0 +1,44 @@
+about:
+    access: restricted
+    footnote: nll
+    grain: ''
+    groups:
+    - null
+    license: ckdbl
+    processed: ''
+    remote: ''
+    rights: public
+    source: ''
+    space: ''
+    subject: ''
+    summary: School enrollment rated, by age group, based on the ACS
+    tags: []
+    time: ''
+    title: School Enrollment Rates
+contacts:
+    wrangler:
+        email: eric@civicknowledge.com
+        name: Eric Busboom
+        org: Civic Knowledge
+        url: http://civicknowledge.com
+external_documentation: {}
+identity:
+    btime: p5ye2014
+    dataset: acs
+    id: d05i
+    revision: 1
+    source: census.gov
+    subset: enrollment
+    variation: hdp
+    version: 0.0.1
+names:
+    fqname: census.gov-acs-p5ye2014-hdp-0.0.1~d05i001
+    name: census.gov-acs-p5ye2014-hdp
+    vid: d05i001
+    vname: census.gov-acs-p5ye2014-hdp-0.0.1
+pipelines:
+    build:
+        first:
+        - Skip("row.state != 'ca' or row.sumlevel  not in (50,160,860,400)")
+        select_partition:
+        - SelectPartition("dict(grain=row.sumlevel, table='b14001')")
