@@ -1,0 +1,14 @@
+table,column,datatype,transform
+hiw,id,int,
+hiw,year,str,
+hiw,county_fips,int,
+hiw,state,str,||row.gvid.state_name
+hiw,county,str,||row.gvid.county_name.short_name
+hiw,county_fips,str,
+hiw,subgroup,str,
+hiw,indicator_value,float,
+hiw,is_suppressed,str,row.textualvalue=='DSU'
+hiw,ci95l,float,
+hiw,ci95h,float,
+hiw,se,float,
+hiw,gvid,census.GVid,

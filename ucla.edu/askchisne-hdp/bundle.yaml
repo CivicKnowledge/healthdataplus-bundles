@@ -1,0 +1,54 @@
+about:
+    access: restricted
+    footnote: nll
+    grain: ''
+    groups:
+    - null
+    license: ckdbl
+    processed: ''
+    remote: ''
+    rights: public
+    source: ''
+    space: ''
+    subject: ''
+    summary: Collected and linked indicators from AskCHIS NE related to chronic disease, prepared for the HealthData+ project. 
+    tags: []
+    time: ''
+    title: AskCHIS NE Chronic Disease Collection
+contacts:
+    wrangler:
+        email: eric@civicknowledge.com
+        name: Eric Busboom
+        org: Civic Knowledge
+        url: http://civicknowledge.com
+        
+external_documentation:
+    dataset:
+        description: Login page for the web application
+        source: null
+        title: AskCHIS NE Home
+        url: http://askchisne.ucla.edu/
+    download:
+        description: API Home Page
+        source: null
+        title: API Page
+        url: https://askchisne.portal.azure-api.net
+    wieghting:
+        description: Description of the weighting and variance estimation methods
+            used in CHIS 2011-2012. This report presents the steps used to create
+            the analytical weights for analyzing the data from the adult, child,
+            and adolescent interviews.
+        title: Weighting and Variance Estimation
+        url: http://healthpolicy.ucla.edu/chis/design/Documents/chis2011-2012-method-5_2014-07-30.pdf
+identity:
+    dataset: askchisne
+    id: d05k
+    revision: 1
+    source: ucla.edu
+    variation: hdp
+    version: 0.0.1
+names:
+    fqname: ucla.edu-askchisne-hdp-0.0.1~d05k001
+    name: ucla.edu-askchisne-hdp
+    vid: d05k001
+    vname: ucla.edu-askchisne-hdp-0.0.1

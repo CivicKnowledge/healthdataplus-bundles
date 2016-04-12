@@ -1,0 +1,50 @@
+about:
+    access: restricted
+    footnote: nll
+    grain: ''
+    groups:
+    - null
+    license: ckdbl
+    processed: ''
+    remote: ''
+    rights: public
+    source: ''
+    space: ''
+    subject: ''
+    summary: Dataset Summary
+    tags: []
+    time: ''
+    title: Dataset Title
+contacts:
+    wrangler:
+        email: eric@civicknowledge.com
+        name: Eric Busboom
+        org: Civic Knowledge
+        url: http://civicknowledge.com
+external_documentation:
+    dataset:
+        description: Web page the links to the dataset description
+        source: null
+        title: Dataset Page
+        url: http://example.com
+    download:
+        description: Web page that links to the source files.
+        source: null
+        title: Download Page
+        url: http://example.com
+identity:
+    dataset: indicators
+    id: d05j
+    revision: 3
+    source: healthindicators.gov
+    variation: hdp
+    version: 0.0.3
+names:
+    fqname: healthindicators.gov-indicators-hdp-0.0.3~d05j003
+    name: healthindicators.gov-indicators-hdp
+    vid: d05j003
+    vname: healthindicators.gov-indicators-hdp-0.0.3
+pipelines:
+    build:
+        select_partition:
+        - SelectPartition("dict(grain=source.name, table='hiw', time=row.year)")

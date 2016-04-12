@@ -1,0 +1,57 @@
+name,source_table_name,reftype,ref,title
+287,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-287 WHERE gvid LIKE '0O06%',Medicare fee-for-service beneficiaries who have chronic kidney disease
+50012,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-50012 WHERE gvid LIKE '0O06%',Chronic lower respiratory disease (CLRD) death rate
+289,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-289 WHERE gvid LIKE '0O06%',Medicare fee-for-service beneficiaries who have chronic obstructive pulmonary disease
+2039,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-2039 WHERE gvid LIKE '0O06%',Prevention Quality Indicators: Chronic obstructive pulmonary disease admission rate among Medicare fee-for-service beneficiaries
+488,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-488 WHERE gvid LIKE '0O06%',Breast cancer death (female) rate
+299,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-299 WHERE gvid LIKE '0O06%',Medicare fee-for-service beneficiaries who have breast cancer
+486,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-486 WHERE gvid LIKE '0O06%',Overall cancer death rate
+86,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-86 WHERE gvid LIKE '0O06%',"Colorectal cancer death rate per 100,000"
+301,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-301 WHERE gvid LIKE '0O06%',Medicare fee-for-service beneficiaries who have colorectal cancer
+303,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-303 WHERE gvid LIKE '0O06%',Medicare fee-for-service beneficiaries who have lung cancer
+88,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-88 WHERE gvid LIKE '0O06%',"Lung, trachea, and bronchus cancer death rate per 100,000"
+305,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-305 WHERE gvid LIKE '0O06%',Medicare fee-for-service beneficiaries who have prostate cancer
+50012,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-50012 WHERE gvid LIKE '0O06%',Chronic lower respiratory disease (CLRD) death rate
+50015,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-50015 WHERE gvid LIKE '0O06%',"Alzheimer's disease death rate per 100,000"
+488,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-488 WHERE gvid LIKE '0O06%',Breast cancer death (female) rate
+486,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-486 WHERE gvid LIKE '0O06%',Overall cancer death rate
+86,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-86 WHERE gvid LIKE '0O06%',"Colorectal cancer death rate per 100,000"
+877,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-877 WHERE gvid LIKE '0O06%',Coronary heart disease death rate
+71,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-71 WHERE gvid LIKE '0O06%',"Death rate per 100,000 population from all causes of death"
+50011,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-50011 WHERE gvid LIKE '0O06%',"Diabetes mellitus death rate per 100,000"
+10016,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-10016 WHERE gvid LIKE '0O06%',"Rate per 100,000 of deaths with underlying causes of drug related poisonings"
+1079,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-1079 WHERE gvid LIKE '0O06%',Fall-related death rate: All persons
+1042,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-1042 WHERE gvid LIKE '0O06%',Firearm-related death rate
+83,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-83 WHERE gvid LIKE '0O06%',Heart disease death rate
+935,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-935 WHERE gvid LIKE '0O06%',HIV infection mortality rate
+1041,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-1041 WHERE gvid LIKE '0O06%',Homicide mortality rate
+1160,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-1160 WHERE gvid LIKE '0O06%',Rate of postneonatal deaths (between 28 days and 1 year)
+1159,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-1159 WHERE gvid LIKE '0O06%',Rate of neonatal deaths (within the first 28 days of life)
+1158,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-1158 WHERE gvid LIKE '0O06%',Rate of all infant deaths (within 1 year)
+50013,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-50013 WHERE gvid LIKE '0O06%',"Influenza and pneumonia death rate per 100,000"
+1071,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-1071 WHERE gvid LIKE '0O06%',Injury death rate
+1074,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-1074 WHERE gvid LIKE '0O06%',Unintentional injury death rate
+50014,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-50014 WHERE gvid LIKE '0O06%',"Nephritis, nephrotic syndrome, and nephrosis (kidney diseases) death rate per 100,000"
+88,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-88 WHERE gvid LIKE '0O06%',"Lung, trachea, and bronchus cancer death rate per 100,000"
+1076,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-1076 WHERE gvid LIKE '0O06%',"Motor vehicle traffic-related death rate per 100,000"
+1064,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-1064 WHERE gvid LIKE '0O06%',Poisoning death rate: All persons
+50069,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-50069 WHERE gvid LIKE '0O06%',Septicemia death rate
+881,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-881 WHERE gvid LIKE '0O06%',Stroke death rate
+1105,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-1105 WHERE gvid LIKE '0O06%',Suicide death rate
+79,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-79 WHERE gvid LIKE '0O06%',Unintentional injury death rate (excluding motor vehicle injuries)
+13,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-13 WHERE gvid LIKE '0O06%',Percent of adults 18 years and over that report currently smoking cigarettes
+150,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-150 WHERE gvid LIKE '0O06%',"Percent of adults that report excessive drinking, either chronic high alcohol consumption or binge drinking"
+5,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-5 WHERE gvid LIKE '0O06%',Percent of adults that report fair or poor health
+119,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-119 WHERE gvid LIKE '0O06%',Percent of adults age 65+ that report having Influenza vaccine in past 12 months
+123,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-123 WHERE gvid LIKE '0O06%',Percent of adults that report having been diagnosed with high blood pressure
+116,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-116 WHERE gvid LIKE '0O06%',Percent of women age 50+ that report a mammogram in the past 2 years
+120,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-120 WHERE gvid LIKE '0O06%',Percent of adults that report no leisure-time exercise in past month
+15,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-15 WHERE gvid LIKE '0O06%',Percent of adults 18 years and over that report BMI >= 30
+10019,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-10019 WHERE gvid LIKE '0O06%',Percent of adults 18+ who needed to see a doctor but could not because of cost
+118,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-118 WHERE gvid LIKE '0O06%',Percent of adults age 65+ that report ever having a pneumococcal vaccination
+288,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-288 WHERE gvid LIKE '0O06%',Percent of Medicare fee-for-service beneficiaries who have chronic kidney disease
+290,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-290 WHERE gvid LIKE '0O06%',Percent of Medicare fee-for-service beneficiaries who have chronic obstructive pulmonary disease
+300,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-300 WHERE gvid LIKE '0O06%',Percent of Medicare fee-for-service beneficiaries who have breast cancer
+302,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-302 WHERE gvid LIKE '0O06%',Percent of Medicare fee-for-service beneficiaries who have colorectal cancer
+304,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-304 WHERE gvid LIKE '0O06%',Percent of Medicare fee-for-service beneficiaries who have lung cancer
+306,hiw,sql ,SELECT * FROM healthindicators.gov-indicators-indicator-county-306 WHERE gvid LIKE '0O06%',Percent of Medicare fee-for-service beneficiaries who have prostate cancer (percent)
