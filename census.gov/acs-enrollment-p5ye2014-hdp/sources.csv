@@ -1,2 +1,5 @@
-name,title,source_table,dest_table,stage,time,space,grain,start_line,end_line,comment_lines,header_lines,description,reftype,ref
-b14001,,,,1,,,,,,,,,partition,census.gov-acs-p5ye2014-b14001
+"name","reftype","ref"
+"enrollment","ref","census.gov-acs-p5ye2014-b14001"
+"under18","ref","census.gov-acs-p5ye2014-b09001"
+"counties","ref","census.gov-tiger-2015-counties"
+"districts","ref","cde.ca.gov-schools-joined_districts"
