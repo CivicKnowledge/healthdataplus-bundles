@@ -1,0 +1,53 @@
+about:
+    access: restricted
+    footnote: nll
+    grain: ''
+    groups:
+    - null
+    license: ckdbl
+    processed: ''
+    remote: ''
+    rights: public
+    source: ''
+    space: ''
+    subject: ''
+    summary: Dataset Summary
+    tags: []
+    time: ''
+    title: Dataset Title
+contacts:
+    wrangler:
+        email: eric@civicknowledge.com
+        name: Eric Busboom
+        org: Civic Knowledge
+        url: http://civicknowledge.com
+external_documentation:
+    dataset:
+        description: Web page the links to the dataset description
+        source: null
+        title: Dataset Page
+        url: http://example.com
+    download:
+        description: Web page that links to the source files.
+        source: null
+        title: Download Page
+        url: http://example.com
+    acs_handbook:
+        description: Guidance on using the ACS, such as calculating margins of error
+            for aggregates
+        source: null
+        title: A Compass for Understanding and Using American Community Survey Data
+        url: http://www.census.gov/acs/www/Downloads/handbooks/ACSGeneralHandbook.pdf
+identity:
+    dataset: acs_p5ye2014
+    id: d05h
+    revision: 1
+    source: census.gov
+    subset: poverty
+    variation: hdp
+    version: 0.0.1
+names:
+    fqname: census.gov-acs_p5ye2014-poverty-hdp-0.0.1~d05h001
+    name: census.gov-acs_p5ye2014-poverty-hdp
+    vid: d05h001
+    vname: census.gov-acs_p5ye2014-poverty-hdp-0.0.1

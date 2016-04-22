@@ -11,10 +11,10 @@ about:
     source: ''
     space: ''
     subject: ''
-    summary: School enrollment rate, by age group, based on the ACS
+    summary: Pre-k Enrollment for 3 and 4 year olds
     tags: []
     time: ''
-    title: School Enrollment Rates
+    title: Pre-k Enrollment for 3 and 4 year olds
 contacts:
     wrangler:
         email: eric@civicknowledge.com
@@ -38,7 +38,11 @@ names:
     vname: census.gov-acs-p5ye2014-hdp-0.0.1
 pipelines:
     build:
-        first:
-        - Skip("row.state != 'ca' or row.sumlevel  not in (50,160,860,400)")
         select_partition:
-        - SelectPartition("dict(grain=row.sumlevel, table='b14001')")
+            - SelectPartitionFromSource
+    build-combined:
+        select_partition:
+            - SelectPartition("bundle.select_county_partition(source, row)")
+    build-combined_cols:
+        select_partition:
+            - SelectPartition("bundle.select_county_cols_partition(source, row)")

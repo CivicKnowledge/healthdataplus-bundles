@@ -1,0 +1,87 @@
+table,sequence_id,column,datatype,description
+,,,,
+poverty_ratio_disability,1,id,int,Ratio Of Income To Poverty Level In The Past 12 Months By Disability Status
+poverty_ratio_disability,2,stusab,str,State/U.S.-Abbreviation (USPS)
+poverty_ratio_disability,3,chariter,str,Character Iteration
+poverty_ratio_disability,4,sequence,int,Sequence Number
+poverty_ratio_disability,5,logrecno,int,Logical Record Number
+poverty_ratio_disability,6,geoid,census.AcsGeoid,Geoid from geofile
+poverty_ratio_disability,7,gvid,census.GVid,GVid from geoid
+poverty_ratio_disability,8,sumlevel,int,Summary Level
+poverty_ratio_disability,9,jam_flags,str,Flags for converted Jam values
+poverty_ratio_disability,10,c18131001,float,Total:
+poverty_ratio_disability,11,c18131001_m90,float,Margin of error for: C18131001
+poverty_ratio_disability,12,c18131002,float,Under .50:
+poverty_ratio_disability,13,c18131002_m90,float,Margin of error for: C18131002
+poverty_ratio_disability,14,c18131003,float,With a disability
+poverty_ratio_disability,15,c18131003_m90,float,Margin of error for: C18131003
+poverty_ratio_disability,16,c18131004,float,No disability
+poverty_ratio_disability,17,c18131004_m90,float,Margin of error for: C18131004
+poverty_ratio_disability,18,c18131005,float,.50 to .99:
+poverty_ratio_disability,19,c18131005_m90,float,Margin of error for: C18131005
+poverty_ratio_disability,20,c18131006,float,With a disability
+poverty_ratio_disability,21,c18131006_m90,float,Margin of error for: C18131006
+poverty_ratio_disability,22,c18131007,float,No disability
+poverty_ratio_disability,23,c18131007_m90,float,Margin of error for: C18131007
+poverty_ratio_disability,24,c18131008,float,1.00 to 1.49:
+poverty_ratio_disability,25,c18131008_m90,float,Margin of error for: C18131008
+poverty_ratio_disability,26,c18131009,float,With a disability
+poverty_ratio_disability,27,c18131009_m90,float,Margin of error for: C18131009
+poverty_ratio_disability,28,c18131010,float,No disability
+poverty_ratio_disability,29,c18131010_m90,float,Margin of error for: C18131010
+poverty_ratio_disability,30,c18131011,float,1.50 to 1.99:
+poverty_ratio_disability,31,c18131011_m90,float,Margin of error for: C18131011
+poverty_ratio_disability,32,c18131012,float,With a disability
+poverty_ratio_disability,33,c18131012_m90,float,Margin of error for: C18131012
+poverty_ratio_disability,34,c18131013,float,No disability
+poverty_ratio_disability,35,c18131013_m90,float,Margin of error for: C18131013
+poverty_ratio_disability,36,c18131014,float,2.00 and over:
+poverty_ratio_disability,37,c18131014_m90,float,Margin of error for: C18131014
+poverty_ratio_disability,38,c18131015,float,With a disability
+poverty_ratio_disability,39,c18131015_m90,float,Margin of error for: C18131015
+poverty_ratio_disability,40,c18131016,float,No disability
+poverty_ratio_disability,41,c18131016_m90,float,Margin of error for: C18131016
+,,,,
+poverty_12mo_age,1,id,int,Poverty Status In The Past 12 Months By Age
+poverty_12mo_age,2,stusab,str,State/U.S.-Abbreviation (USPS)
+poverty_12mo_age,3,chariter,str,Character Iteration
+poverty_12mo_age,4,sequence,int,Sequence Number
+poverty_12mo_age,5,logrecno,int,Logical Record Number
+poverty_12mo_age,6,geoid,census.AcsGeoid,Geoid from geofile
+poverty_12mo_age,7,gvid,census.GVid,GVid from geoid
+poverty_12mo_age,8,sumlevel,int,Summary Level
+poverty_12mo_age,9,jam_flags,str,Flags for converted Jam values
+poverty_12mo_age,10,b17020001,float,Total:
+poverty_12mo_age,11,b17020001_m90,float,Margin of error for: B17020001
+poverty_12mo_age,12,b17020002,float,Income in the past 12 months below poverty level:
+poverty_12mo_age,13,b17020002_m90,float,Margin of error for: B17020002
+poverty_12mo_age,14,b17020003,float,Under 6 years
+poverty_12mo_age,15,b17020003_m90,float,Margin of error for: B17020003
+poverty_12mo_age,16,b17020004,float,6 to 11 years
+poverty_12mo_age,17,b17020004_m90,float,Margin of error for: B17020004
+poverty_12mo_age,18,b17020005,float,12 to 17 years
+poverty_12mo_age,19,b17020005_m90,float,Margin of error for: B17020005
+poverty_12mo_age,20,b17020006,float,18 to 59 years
+poverty_12mo_age,21,b17020006_m90,float,Margin of error for: B17020006
+poverty_12mo_age,22,b17020007,float,60 to 74 years
+poverty_12mo_age,23,b17020007_m90,float,Margin of error for: B17020007
+poverty_12mo_age,24,b17020008,float,75 to 84 years
+poverty_12mo_age,25,b17020008_m90,float,Margin of error for: B17020008
+poverty_12mo_age,26,b17020009,float,85 years and over
+poverty_12mo_age,27,b17020009_m90,float,Margin of error for: B17020009
+poverty_12mo_age,28,b17020010,float,Income in the past 12 months at or above poverty level:
+poverty_12mo_age,29,b17020010_m90,float,Margin of error for: B17020010
+poverty_12mo_age,30,b17020011,float,Under 6 years
+poverty_12mo_age,31,b17020011_m90,float,Margin of error for: B17020011
+poverty_12mo_age,32,b17020012,float,6 to 11 years
+poverty_12mo_age,33,b17020012_m90,float,Margin of error for: B17020012
+poverty_12mo_age,34,b17020013,float,12 to 17 years
+poverty_12mo_age,35,b17020013_m90,float,Margin of error for: B17020013
+poverty_12mo_age,36,b17020014,float,18 to 59 years
+poverty_12mo_age,37,b17020014_m90,float,Margin of error for: B17020014
+poverty_12mo_age,38,b17020015,float,60 to 74 years
+poverty_12mo_age,39,b17020015_m90,float,Margin of error for: B17020015
+poverty_12mo_age,40,b17020016,float,75 to 84 years
+poverty_12mo_age,41,b17020016_m90,float,Margin of error for: B17020016
+poverty_12mo_age,42,b17020017,float,85 years and over
+poverty_12mo_age,43,b17020017_m90,float,Margin of error for: B17020017

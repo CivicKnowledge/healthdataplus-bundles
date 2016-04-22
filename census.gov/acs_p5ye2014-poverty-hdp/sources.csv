@@ -1,0 +1,4 @@
+name,reftype,ref,state
+acs,ref,census.gov-acs-p5ye2014,synced
+poverty_12mo_age,partition,census.gov-acs-p5ye2014-b17020,not_ingestable
+poverty_ratio_disability,partition,census.gov-acs-p5ye2014-c18131,not_ingestable

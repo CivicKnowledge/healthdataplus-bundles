@@ -1,0 +1,22 @@
+Poverty:
+    b17001 Poverty Status In The Past 12 Months By Sex By Age (Race Iterated)
+
+Health Insurance Coverage: ( 5 year)
+    c27001a-i Health Insurance Coverage Status By Age (Race Iterated)
+    c27004 Employer-Based Health Insurance By Sex By Age
+    c27005 Direct-Purchase Health Insurance By Sex By Age
+    c27006 Medicare Coverage By Sex By Age
+    c27007 Medicaid/Means-Tested Public Coverage By Sex By Age
+    c27008 Tricare/Military Health Coverage By Sex By Age
+    c27009 Va Health Care By Sex By Age
+    
+    
+Health Insurance Coverage: ( 1 year & 5 year )    
+    b27001 Health Insurance Coverage Status By Sex By Age
+    b27002 Private Health Insurance Status By Sex By Age
+    b27003 Public Health Insurance Status By Sex By Age
+    b27010 Types Of Health Insurance Coverage By Age
+    
+b98012 Total Population Coverage Rate By Sex
+    
+c15002a Sex By Educational Attainment For The Population 25 Years And Over (White Alone)
