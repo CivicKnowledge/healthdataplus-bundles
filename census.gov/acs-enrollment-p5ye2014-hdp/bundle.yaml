@@ -40,7 +40,7 @@ pipelines:
     build:
         select_partition:
             - SelectPartitionFromSource
-    build-combined:
+    build-combined_rows:
         select_partition:
             - SelectPartition("bundle.select_county_partition(source, row)")
     build-combined_cols:
