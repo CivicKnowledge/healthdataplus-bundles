@@ -26,6 +26,8 @@ class Bundle(ambry.bundle.Bundle):
          
     def map_county(self, row):
         
+        print '!!!', self.counties
+        
         return  self.counties.get(row.region)
         
     
